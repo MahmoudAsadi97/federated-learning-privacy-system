@@ -1,0 +1,10 @@
+seed: 42
+
+federated:
+  num_clients: 15
+  rounds: 20
+  local_epochs: 1
+  lr: 0.001
+
+model:
+  hidden_dim: 64

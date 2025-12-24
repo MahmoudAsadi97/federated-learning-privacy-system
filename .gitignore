@@ -205,3 +205,34 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+
+# =========================
+# Project-specific ignores
+# =========================
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Packaging artifacts
+*.egg-info/
+
+# Raw and generated data
+data/raw/
+data/clients/
+
+# Trained models
+models/
+*.pt
+
+# Experiment outputs (keep plots)
+runs/*.json
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
